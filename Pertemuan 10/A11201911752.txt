@@ -1,0 +1,8 @@
+Nama	: Nova bayu anang istiawan
+NIM	: A11.2019.11752
+
+Cube	==> Component = Transform, Cube(Mesh Filter), Mesh Renderer, Box Collider
+Sphere	==> Component = Transform, Sphere(Mesh Filter), Mesh Renderer, Sphere Collider
+Capsule	==> Component = Transform, Cube(Mesh Filter), Mesh Renderer, Capsule Collider
+Quad	==> Component = Transform, Quad(Mesh FIlter), Mesh Renderer, Mesh Collider
+Plane	==> Component = Transform, Plane(Mesh Filter), Mesh Renderer, Mesh Collider
