@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89ec15d8cb6caac4ab74bcc0dbc454ea, type: 3}
+  m_Name: New Characterdatabase
+  m_EditorClassIdentifier: 
+  character:
+  - characterName: Gyrocoptor
+    characterSprite: {fileID: 21300000, guid: 9dd584d9c2d33e7468c3ac7c10f8214c, type: 3}
+  - characterName: Bara
+    characterSprite: {fileID: 21300000, guid: 8ce6558428e16f143adb3ff2be6fc2a8, type: 3}
+  - characterName: GyroCuptur
+    characterSprite: {fileID: 21300000, guid: d880026e77f9206498d2338347d3b839, type: 3}
