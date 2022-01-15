@@ -541,7 +541,7 @@ GameObject:
   - component: {fileID: 615503125}
   m_Layer: 0
   m_Name: Spawn Point
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -834,7 +834,7 @@ GameObject:
   - component: {fileID: 910864231}
   m_Layer: 0
   m_Name: Spawn Point2
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1148,6 +1148,36 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095973438}
   m_CullTransparentMesh: 1
+--- !u!1 &1119634666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1119634667}
+  m_Layer: 0
+  m_Name: Shoot peluru
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1119634667
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1119634666}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.55, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1302124600}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1302124599
 GameObject:
   m_ObjectHideFlags: 0
@@ -1179,6 +1209,7 @@ Transform:
   m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children:
   - {fileID: 2142055819}
+  - {fileID: 1119634667}
   m_Father: {fileID: 1074331186}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1218,6 +1249,14 @@ MonoBehaviour:
   characterDB: {fileID: 11400000, guid: 17a0a92d7bb3a184887a67bc98e7d3d4, type: 2}
   artworkSprite: {fileID: 2142055820}
   playerSpeed: 8
+  attackSpeed: 0.5
+  coolDown: 0
+  bulletSpeed: 500
+  yValue: 1
+  xValue: 0.2
+  bulletPos: 1
+  shootPos: {fileID: 1119634666}
+  bulletPrefab: {fileID: 6328209676866658401, guid: 56b9d2fc017eb0b428f0527920280bad, type: 3}
 --- !u!61 &1302124603
 BoxCollider2D:
   m_ObjectHideFlags: 0

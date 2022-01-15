@@ -580,7 +580,7 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: "\"Cara memainkan game ini mudah sekali\n hanya tekan keyboard W dan S
-    atau arah panah UP dan DOWN.\""
+    atau arah panah UP dan DOWN dan untuk menmbakkan tekan Space.\""
 --- !u!222 &1358335195
 CanvasRenderer:
   m_ObjectHideFlags: 0
